@@ -1,0 +1,85 @@
+﻿/* a style of the element which contains a report page*/
+.ssr_wrapperPageDiv
+{
+    padding:10px;
+    margin: 0 auto;
+    clear: both;
+}
+/* a style of a report page*/
+.ssr_pageDiv
+{
+    background-color: #FFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#555;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 1px;
+}
+/*
+ThumbnailsView
+*/
+/* a style of the element which contains a thumbnails list*/
+#ssr_thumbnailContentPanel
+{
+    float: left;
+    width: 167px;
+    height: 543px;
+    overflow: auto;
+    background-color: #E8E9ED;
+    margin-right: 3px;
+}
+/* a style of an element of a thumbnails list*/
+#ssr_thumbnailContentPanel .ssr_thumbnailItemWrapper
+{
+    border-style: solid;
+    border-color: Black;
+    border-width: 0px;
+    clear: both;
+    padding: 1px;
+    margin: 5px auto;
+    width: 100px;
+}
+/* a style of div elements which are used in the element from a list of thumbnails*/
+#ssr_thumbnailContentPanel .ssr_thumbnailItemWrapper div
+{
+    text-align: center;
+}
+/* a style which defines the image sizes of the element from a thumbnails list*/
+#ssr_thumbnailContentPanel .ssr_thumbnailItemWrapper .ssr_thumbnailImage
+{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+/* a style of the element of thumbnails list when this element is under the mouse pointer*/
+#ssr_thumbnailContentPanel .ssr_thumbnailItemWrapper:hover
+{
+    background-color: #bbb;
+}
+/* a style of the element of thumbnails list when the element is selected */
+#ssr_thumbnailContentPanel .ssr_thumbnailItemSelected
+{
+    background-color: #aaa;
+}
+/*
+End ThumbnailsView
+*/
+
+.treeview, .treeview ul { padding: 0; margin: 0; list-style: none; }
+.treeview ul { margin-top: 4px; }
+.treeview .hitarea { background: url(images/treeview-default.gif) -64px -25px no-repeat; height: 16px; width: 16px; margin-left: -16px; float: left; cursor: pointer; }
+.treeview li { margin: 0; padding: 3px 0pt 3px 16px;}
+.selected { background-color: #C5DAE5 !important; background-position: -16px 0 !important; }
+.treeview .hover { cursor: pointer; background-color: #D8E6ED !important;}
+.treeview li { background: url(images/treeview-default-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(images/treeview-default.gif); }
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+.filetree li { padding: 3px 0 2px 16px; }
+.filetree span.folder, .filetree { padding: 0px 0px 0px 16px; display: block; min-height:16px;}
+.filetree span.folder { background: url(images/bookmarktreenode.png) 0 -16px no-repeat; padding-left: 20px !important; }

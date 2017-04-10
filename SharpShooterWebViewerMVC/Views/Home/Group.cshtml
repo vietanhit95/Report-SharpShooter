@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Group";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="@Url.Content("~/Scripts/jquery.treeview.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/mscorlib.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/PerpetuumSoft.Reporting.WebViewer.Client.Model.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/PerpetuumSoft.Reporting.WebViewer.Client.js")" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var reportViewer = new PerpetuumSoft.Reporting.WebViewer.Client.ReportViewer("#ReportViewerElement");
+        reportViewer.setServiceUrl("http://localhost:5555/ServiceGroup");
+        reportViewer.reportName = "Group";
+        reportViewer.renderDocument();
+        reportViewer.setThumbnailsControl("#ssr_thumbnailContentPanel");
+        reportViewer.setDocumentMapControl("#documentMapView");
+    });
+</script>
+
+<div id="ReportViewerElement">
+
+</div>
+

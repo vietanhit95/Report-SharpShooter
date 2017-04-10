@@ -1,0 +1,257 @@
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ApplicationInsights.config
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\csc.exe
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\vbc.exe
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\VBCSCompiler.exe
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.dll.config
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.pdb
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Docking.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Navigator.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Ribbon.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Toolkit.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Workspace.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Web.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.ApplicationInsights.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Charts.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Model.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Instrumentation.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Model.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Server.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Server.Mvc.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Helpers.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Mvc.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Razor.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Deployment.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Razor.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Export.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Flash.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Svg.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Html.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Pdf.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.OpenXML.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Excel.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Rtf.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Xps.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\itextsharp.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\DocumentFormat.OpenXml.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Excel.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Web.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.ApplicationInsights.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Charts.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Model.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Instrumentation.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Razor.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Deployment.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Razor.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Helpers.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Mvc.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Export.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Html.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Pdf.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Excel.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Rtf.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Xps.xml
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.csprojResolveAssemblyReference.cache
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.ServiceClass.resources
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.csproj.GenerateResource.Cache
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.dll.licenses
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.dll
+D:\HOUSE\Semina-Vinatti\Sharpshooter Report\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.pdb
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ApplicationInsights.config
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\csc.exe
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\vbc.exe
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\VBCSCompiler.exe
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.dll.config
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.pdb
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Docking.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Navigator.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Ribbon.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Toolkit.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Workspace.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Web.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.ApplicationInsights.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Charts.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Model.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Instrumentation.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Model.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Server.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Server.Mvc.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Helpers.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Mvc.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Razor.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Deployment.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Razor.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Export.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Flash.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Svg.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Html.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Pdf.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.OpenXML.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Excel.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Rtf.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Xps.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\itextsharp.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\DocumentFormat.OpenXml.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Excel.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Web.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.ApplicationInsights.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Charts.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Model.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Instrumentation.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Razor.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Deployment.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Razor.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Helpers.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Mvc.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Export.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Html.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Pdf.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Excel.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Rtf.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Xps.xml
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.csprojResolveAssemblyReference.cache
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.ServiceClass.resources
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.csproj.GenerateResource.Cache
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.dll.licenses
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.dll
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.pdb
+D:\Cai Dat\SQL\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.ServiceGroupClass.resources
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ApplicationInsights.config
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\csc.exe
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\vbc.exe
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.dll.config
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\SharpShooterWebViewerMVC.pdb
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Docking.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Navigator.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\ComponentFactory.Krypton.Workspace.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Web.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Charts.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Model.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Instrumentation.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Model.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Server.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.WebViewer.Server.Mvc.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Helpers.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Mvc.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Razor.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Deployment.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Razor.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Export.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Flash.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Svg.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Html.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Pdf.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.OpenXML.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Excel.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Rtf.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Xps.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\itextsharp.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\DocumentFormat.OpenXml.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Writers.Excel.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.Web.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Charts.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Model.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Instrumentation.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Razor.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Deployment.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Webpages.Razor.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Helpers.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\System.Web.Mvc.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Framework.Export.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Html.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Pdf.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Excel.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Rtf.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\bin\PerpetuumSoft.Reporting.Export.Xps.xml
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.csprojResolveAssemblyReference.cache
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.ServiceClass.resources
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.ServiceGroupClass.resources
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.csproj.GenerateResource.Cache
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.dll.licenses
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.dll
+C:\Users\nguye\Downloads\Compressed\SharpShooterWebViewerMVC\SharpShooterWebViewerMVC\obj\Debug\SharpShooterWebViewerMVC.pdb

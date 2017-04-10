@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <data name="inlineReportSlot1.DocumentStream" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;&lt;root type="PerpetuumSoft.Reporting.DOM.Document" id="1" version="2" Description="Template is generated by wizard" ScriptLanguage="CSharp" DocumentGuid="d3fd8588-0cd0-400d-bcad-1660e8064280" Name="document1" InvalidRenderLength="ThrowException" IsTemplate="true" GridStep="59.055118110236222" Title="Customers Report"&gt;&lt;StyleSheet type="PerpetuumSoft.Reporting.DOM.StyleSheet" id="2"&gt;&lt;Styles type="PerpetuumSoft.Reporting.DOM.StyleCollection" id="3"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.Style" id="4" Name="HeaderFooter"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="5" FamilyName="Arial" Size="12" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.Style" id="6" Name="HeaderFooter1"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="7" FamilyName="Arial" Size="12" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.Style" id="8" Name="HeaderFooter2"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="9" FamilyName="Arial" Size="12" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.Style" id="10" Name="HeaderFooter3"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="11" FamilyName="Arial" Size="12" /&gt;&lt;/Item&gt;&lt;/Styles&gt;&lt;/StyleSheet&gt;&lt;Parameters type="PerpetuumSoft.Reporting.DOM.ParameterCollection" id="12" /&gt;&lt;DataSources type="PerpetuumSoft.Reporting.Data.DocumentDataSourceCollection" id="13" /&gt;&lt;Pages type="PerpetuumSoft.Reporting.DOM.PageCollection" id="14"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.Page" id="15" Location="0;0" StyleName="Normal" Margins="118.110237121582; 141.732284545898; 177.16535949707; 118.110237121582" Name="page1" Size="2480.3149606299212;3507.8740157480315"&gt;&lt;Controls type="PerpetuumSoft.Reporting.DOM.ReportControlCollection" id="16"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.PageHeader" id="17" CanShrink="true" Location="0;177.16535949707031" CanGrow="true" StyleName="PageHeader" Name="pageHeader" Size="2480.3149606299212;59.055118560791016"&gt;&lt;Controls type="PerpetuumSoft.Reporting.DOM.ReportControlCollection" id="18"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="19" StyleName="PageNumber" ExportAsPictureInXaml="false" Name="HeaderPageNumber" TextAlign="TopRight" CanGrow="true" Size="177.16535949707031;59.055118560791016" CanShrink="true" Location="2244.0944881889764;0"&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="20"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.ReportDataBinding" id="21" Expression="PageNumber" PropertyName="Value" /&gt;&lt;/DataBindings&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="22" ExportAsPictureInXaml="false" Name="textBox1" TextAlign="TopLeft" Size="236.22047424316406;59.055118560791016" Location="59.055118110236222;0" Text="List"&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="23" /&gt;&lt;/Item&gt;&lt;/Controls&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="24" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.Detail" id="25" StyleName="ReportTitle" CanShrink="true" CanGrow="true" Name="reportTitle" Size="2480.3149606299212;236.22047424316406" Location="0;354.33070866141736"&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="26" /&gt;&lt;Controls type="PerpetuumSoft.Reporting.DOM.ReportControlCollection" id="27"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="28" ExportAsPictureInXaml="false" Name="textBox4" TextAlign="MiddleCenter" Size="1003.93701171875;118.11023712158203" Location="826.77165354330714;59.055117209126649" Text="DANH SÁCH KHÁCH HÀNG"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="29" FamilyName="Arial" Size="14" Bold="On" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="30" /&gt;&lt;/Item&gt;&lt;/Controls&gt;&lt;Aggregates type="PerpetuumSoft.Reporting.DOM.AggregateCollection" id="31" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.DataBand" id="32" ColumnsGap="0" Location="0;649.6063232421875" ColumnsCount="1" DataSource="Customers" Name="dataBand1" Size="2480.3149606299212;318.89764404296875"&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="33" /&gt;&lt;Sort type="PerpetuumSoft.Reporting.DOM.DataBandSortCollection" id="34" /&gt;&lt;Totals type="PerpetuumSoft.Reporting.DOM.DataBandTotalCollection" id="35" /&gt;&lt;Controls type="PerpetuumSoft.Reporting.DOM.ReportControlCollection" id="36"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.Header" id="37" StyleName="HeaderFooter1" CanShrink="true" CanGrow="true" Name="header1" Size="2480.3149606299212;59.055118560791016" Location="0;59.055118110236222"&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="38" /&gt;&lt;Controls type="PerpetuumSoft.Reporting.DOM.ReportControlCollection" id="39"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="40" GrowToBottom="true" ExportAsPictureInXaml="false" Name="header1_Customers_Name" TextAlign="MiddleCenter" CanGrow="true" Size="531.49603271484375;59.055118560791016" CanShrink="true" Location="177.16535433070868;0" Text="Tên"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="41" FamilyName="Arial" Size="12" Bold="On" /&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="42" All="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="43" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="44" GrowToBottom="true" ExportAsPictureInXaml="false" Name="header1_Customers_Email" TextAlign="MiddleCenter" CanGrow="true" Size="531.49603271484375;59.055118560791016" CanShrink="true" Location="708.66141732283472;0" Text="Email"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="45" FamilyName="Arial" Size="12" Bold="On" /&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="46" BottomLine="1 Solid Black" RightLine="1 Solid Black" TopLine="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="47" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="48" GrowToBottom="true" ExportAsPictureInXaml="false" Name="header1_Customers_Phone" TextAlign="MiddleCenter" CanGrow="true" Size="531.49603271484375;59.055118560791016" CanShrink="true" Location="1240.1574803149606;0" Text="SDT"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="49" FamilyName="Arial" Size="12" Bold="On" /&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="46" BottomLine="1 Solid Black" RightLine="1 Solid Black" TopLine="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="50" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="51" GrowToBottom="true" ExportAsPictureInXaml="false" Name="header1_Customers_Active" TextAlign="MiddleCenter" CanGrow="true" Size="531.49603271484375;59.055118560791016" CanShrink="true" Location="1771.6535433070867;0" Text="Trạng thái"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="52" FamilyName="Arial" Size="12" Bold="On" /&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="46" BottomLine="1 Solid Black" RightLine="1 Solid Black" TopLine="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="53" /&gt;&lt;/Item&gt;&lt;/Controls&gt;&lt;Aggregates type="PerpetuumSoft.Reporting.DOM.AggregateCollection" id="54" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.Detail" id="55" CanShrink="true" CanGrow="true" Name="detail1" Size="2480.3149606299212;82.677162170410156" Location="0;177.16535433070868"&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="56"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.ReportDataBinding" id="57" Expression="&amp;quot;#&amp;quot; + GetData(&amp;quot;Customers.Active&amp;quot;)" PropertyName="Bookmark" /&gt;&lt;/DataBindings&gt;&lt;Controls type="PerpetuumSoft.Reporting.DOM.ReportControlCollection" id="58"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="59" GrowToBottom="true" ExportAsPictureInXaml="false" Name="detail1_Customers_Name" TextAlign="MiddleCenter" CanGrow="true" Size="531.49603271484375;59.055118560791016" CanShrink="true" Location="177.16535433070868;0"&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="42" All="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="60"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.ReportDataBinding" id="61" Expression="GetData(&amp;quot;Customers.Name&amp;quot;)" PropertyName="Value" /&gt;&lt;/DataBindings&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="62" GrowToBottom="true" ExportAsPictureInXaml="false" Name="detail1_Customers_Email" TextAlign="MiddleCenter" CanGrow="true" Size="531.49603271484375;59.055118560791016" CanShrink="true" Location="708.66141732283472;0"&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="46" BottomLine="1 Solid Black" RightLine="1 Solid Black" TopLine="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="63"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.ReportDataBinding" id="64" Expression="GetData(&amp;quot;Customers.Email&amp;quot;)" PropertyName="Value" /&gt;&lt;/DataBindings&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="65" GenerateScript="textBox2.Value = GetData(&amp;quot;Customers.Active&amp;quot;);" GrowToBottom="true" ExportAsPictureInXaml="false" Name="textBox2" TextAlign="MiddleCenter" CanGrow="true" Size="531.49603271484375;59.055118560791016" CanShrink="true" Location="1771.6535433070867;-0"&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="46" BottomLine="1 Solid Black" RightLine="1 Solid Black" TopLine="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="66" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="67" GenerateScript="textBox3.Value=GetData(&amp;quot;Customers.Phone&amp;quot;);" GrowToBottom="true" ExportAsPictureInXaml="false" Name="textBox3" TextAlign="MiddleCenter" CanGrow="true" Size="531.49603271484375;59.055118560791016" CanShrink="true" Location="1240.1574803149606;-0"&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="46" BottomLine="1 Solid Black" RightLine="1 Solid Black" TopLine="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="68" /&gt;&lt;/Item&gt;&lt;/Controls&gt;&lt;Aggregates type="PerpetuumSoft.Reporting.DOM.AggregateCollection" id="69" /&gt;&lt;/Item&gt;&lt;/Controls&gt;&lt;Aggregates type="PerpetuumSoft.Reporting.DOM.AggregateCollection" id="70" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.PageFooter" id="71" CanShrink="true" Location="0;1003.93701171875" CanGrow="true" StyleName="PageFooter" Name="pageFooter" Size="2480.3149606299212;236.22047424316406"&gt;&lt;Controls type="PerpetuumSoft.Reporting.DOM.ReportControlCollection" id="72"&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="73" ExportAsPictureInXaml="false" Name="textBox5" TextAlign="TopCenter" Size="531.49603271484375;118.11023712158203" Location="1712.5984251968505;59.055118110236222" Text="Người xác nhận"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="74" FamilyName="Arial" Size="12" Italic="On" Bold="On" /&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="75" BottomLine="1 Dot Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="76" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="77" ExportAsPictureInXaml="false" Name="textBox7" TextAlign="TopCenter" Size="590.55120849609375;118.11023712158203" Location="413.38582677165357;59.055118110236222" Text="Người làm danh sách&amp;#xD;&amp;#xA;"&gt;&lt;Font type="PerpetuumSoft.Framework.Drawing.FontDescriptor" id="78" FamilyName="Arial" Size="12" Italic="On" Bold="On" /&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="75" BottomLine="1 Dot Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="79" /&gt;&lt;/Item&gt;&lt;/Controls&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="80" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="81" ExportAsPictureInXaml="false" Name="textBox6" TextAlign="TopLeft" Size="2480.31494140625;0" Location="0;236.22047244094489"&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="82" /&gt;&lt;/Item&gt;&lt;Item type="PerpetuumSoft.Reporting.DOM.TextBox" id="83" ExportAsPictureInXaml="false" Name="textBox8" TextAlign="TopLeft" Size="2244.094482421875;59.055118560791016" Location="118.11023622047244;236.22047244094489"&gt;&lt;Border type="PerpetuumSoft.Framework.Drawing.Border" id="84" TopLine="1 Solid Black" /&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="85" /&gt;&lt;/Item&gt;&lt;/Controls&gt;&lt;DataBindings type="PerpetuumSoft.Reporting.DOM.ReportDataBindingCollection" id="86" /&gt;&lt;/Item&gt;&lt;/Pages&gt;&lt;PageContent type="PerpetuumSoft.Reporting.DOM.Wrappers.ContentParametersDictionary" id="87" /&gt;&lt;/root&gt;</value>
+  </data>
+  <metadata name="reportManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 17</value>
+  </metadata>
+  <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+</root>

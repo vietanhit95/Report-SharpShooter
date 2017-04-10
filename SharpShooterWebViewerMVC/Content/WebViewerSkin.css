@@ -1,0 +1,965 @@
+﻿/*
+Layout
+*/
+/*a style of the element which contains toolbar, statusbar and report display area*/
+.ssr_reportViewerControl
+{
+    height: 661px;
+    position: relative;
+    margin: 0px;
+}
+
+/* a style of the element which contains toolbar elements */
+.ssr_toolBar
+{
+    background-image: url('images/toolbackground.png');
+    height: 40px;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/*a style of the element which contains element for display of reports, element for display bookmarks tree, element for display of thumbnails list*/
+.ssr_centralDiv
+{
+    height: 591px;
+}
+
+/* a style of the element which contains the element for display of bookmarks tree and element for display of thumbnails list*/
+.ssr_navigationArea
+{
+    float: left;
+    height: inherit;
+    background-color: #CCC;
+}
+
+/*a style of the element which displays a report*/
+.ssr_reportArea
+{
+    overflow: auto;
+    height: inherit;
+    background-color: Gray;
+}
+
+/*a style of the element which contains buttons for showing/hiding of the element for display of bookmarks tree and element for display of thumbnails list*/
+.ssr_navigationIconPanel
+{
+    float: left;
+    width: 36px;
+    height: inherit;
+    padding: 3px 0px 0px 3px;
+}
+
+/*a style of the element which contains the element displaying the title of the panel and element with thumbnails list*/
+.ssr_thumbnailsPanel, 
+/*a style of the element which contains the element displaying the title of the panel and element with bookmarks tree*/
+.ssr_documentMapPanel
+{
+    display: none;
+    margin-left: 36px;
+    padding: 3px 3px 3px 0px;
+}
+
+/* a style of the element which contains the title for the panel with thumbnails list and the element which hides the panel*/
+.ssr_thumbnailHeadPanel, 
+/* a style of the element which contains the title for the panel with bookmarks tree and the element which hides the panel*/
+.ssr_documentMapHeadPanel
+{
+    background-color: #E8E9ED;
+    height: 40px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    margin: 0px 0px 0px 3px;
+}
+
+/*a style of the element which contains just the element for display of thumbnails list*/
+.ssr_wrapThumbnailContentPanel, 
+/*a style of the element which contains just the element for display of bookmarks tree*/
+.ssr_wrapDocumentMapContentPanel
+{
+    background-color: #E8E9ED;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/*a style of the element which contains just the element for display of bookmarks tree*/
+.ssr_wrapDocumentMapContentPanel
+{
+    overflow: auto;
+    height: 543px;
+}
+
+/*a style of the element which contains just the element for display of thumbnails list*/
+.ssr_wrapThumbnailContentPanel
+{
+    overflow: hidden;
+    height: 543px;
+}
+
+/*a style of the element which displays a thumbnails list*/
+.ssr_thumbnailContentPanel, 
+/*a style of the element which displays a bookmarks tree*/
+.ssr_documentMapContentPanel
+{
+    width: 170px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+/*a style of the element which contains statusbar elements*/
+.ssr_statusPanel
+{
+    background: url('images/toolbackground.png') 50%;
+    height: 30px;
+    position: relative;
+    bottom: 0px;
+}
+
+/*a style of the element which contain elements allowing navigation through report pages*/
+.ssr_paginationPanel
+{
+    float: left;
+    margin: 3px 0px 0px 7px;
+}
+
+/*a style of the element which contains elements notifying a user about some events*/
+.ssr_notificationPanel
+{
+    float: right;
+}
+/*
+End Layout
+*/
+
+/*
+Toolbar
+*/
+/*a style of the element which is a container for print button and export buttons*/
+.ssr_toolButtonContainer
+{
+    width: 36px;
+    height: 34px;
+    margin: 2px 0px 0px 2px;
+    padding: 2px 0px 0px 2px;
+    float: left;
+}
+
+.ssr_toolInputContainer
+{
+    width: 210px;
+    height: 34px;
+    margin: 0px;
+    padding: 6px 0px 0px 0px;
+    float: left;
+}
+
+/*a style of the element which is a container for  print button and export buttons when the element is under the mouse pointer */
+.ssr_toolButtonContainerOver:hover
+{
+    background-image: url('images/toolButtonBackgroung.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/*a style of the element which is a container for print button and export buttons when the element is under the mouse pointer with pressed mouse button */
+.ssr_toolButtonContainerDown
+{
+    background-image: url('images/toolButtonBackgroung.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/*general style of print button and export buttons */
+.ssr_toolButton
+{
+    width: 32px;
+    height: 32px;
+}
+
+/*a style of print button when the button is disabled */
+.ssr_printButtonDisable
+{
+    background-image: url('images/printButton.png');
+    background-position: top;
+}
+
+/*a style of print button when the button is enabled*/
+.ssr_printButtonEnable
+{
+    background-image: url('images/printButton.png');
+    background-position: bottom;
+}
+
+/*a style of the RTF export button when the button is enabled*/
+.ssr_rtfExportButtonEnable
+{
+    background-image: url('images/rtfButton.png');
+    background-position: bottom;
+}
+
+/*a style of the RTF export button when the button is disabled*/
+.ssr_rtfExportButtonDisable
+{
+    background-image: url('images/rtfButton.png');
+    background-position: top;
+}
+
+/*a style of the PDF export button when the button is enabled*/
+.ssr_pdfExportButtonEnable
+{
+    background-image: url('images/pdfButton.png');
+    background-position: bottom;
+}
+
+/*a style of the PDF export button when the button is disabled*/
+.ssr_pdfExportButtonDisable
+{
+    background-image: url('images/pdfButton.png');
+    background-position: top;
+}
+
+/*a style of the Excel export button when the button is enabled*/
+.ssr_excelExportButtonEnable
+{
+    background-image: url('images/excelButton.png');
+    background-position: bottom;
+}
+
+/*a style of the Excel export button when the button is disabled*/
+.ssr_excelExportButtonDisable
+{
+    background-image: url('images/excelButton.png');
+    background-position: top;
+}
+
+/*a style of the HTML export button when the button is enabled*/
+.ssr_htmlExportButtonEnable
+{
+    background-image: url('images/htmlButton.png');
+    background-position: bottom;
+}
+
+/*a style of the HTML export button when the button is disabled*/
+.ssr_htmlExportButtonDisable
+{
+    background-image: url('images/htmlButton.png');
+    background-position: top;
+}
+
+/*a style of the XPS export button when the button is enabled*/
+.ssr_xpsExportButtonEnable
+{
+    background-image: url('images/xpsButton.png');
+    background-position: bottom;
+}
+
+/*a style of the XPS export button when the button is disabled*/
+.ssr_xpsExportButtonDisable
+{
+    background-image: url('images/xpsButton.png');
+    background-position: top;
+}
+
+/*a style of the ZoomIn button when the button is enabled*/
+.ssr_zoomInButtonEnable
+{
+    background-image: url('images/zoomInButton.png');
+    background-position: bottom;
+}
+
+/*a style of the ZoomIn export button when the button is disabled*/
+.ssr_zoomInButtonDisable
+{
+    background-image: url('images/zoomInButton.png');
+    background-position: top;
+}
+
+/*a style of the ZoomOut button when the button is enabled*/
+.ssr_zoomOutButtonEnable
+{
+    background-image: url('images/zoomOutButton.png');
+    background-position: bottom;
+}
+
+/*a style of the ZoomOut button when the button is disabled*/
+.ssr_zoomOutButtonDisable
+{
+    background-image: url('images/zoomOutButton.png');
+    background-position: top;
+}
+
+/*a style of the Find button when the button is enabled*/
+.ssr_findButtonEnable
+{
+    background-image: url('images/findButton.png');
+    background-position: bottom;
+}
+
+/*a style of the Find button when the button is disabled*/
+.ssr_findButtonDisable
+{
+    background-image: url('images/findButton.png');
+    background-position: top;
+}
+
+/*a style of the FindNext button when the button is enabled*/
+.ssr_findNextButtonEnable
+{
+    background-image: url('images/findNextButton.png');
+    background-position: bottom;
+}
+
+/*a style of the FindNext button when the button is disabled*/
+.ssr_findNextButtonDisable
+{
+    background-image: url('images/findNextButton.png');
+    background-position: top;
+}
+
+/*a style of the FindPrev button when the button is enabled*/
+.ssr_findPrevButtonEnable
+{
+    background-image: url('images/findPrevButton.png');
+    background-position: bottom;
+}
+
+/*a style of the FindPrev button when the button is disabled*/
+.ssr_findPrevButtonDisable
+{
+    background-image: url('images/findPrevButton.png');
+    background-position: top;
+}
+
+
+
+/*
+End toolbar
+*/
+
+/*
+Status panel
+*/
+
+/*a style of the element which contains statusbar buttons*/
+.ssr_statusButtonContainer
+{
+    width: 20px;
+    height: 24px;
+    float: left;
+}
+
+/*general style of statusbar buttons*/
+.ssr_statusButton
+{
+    width: 16px;
+    height: 16px;
+    margin: 4px 0px 0px 2px;
+}
+
+/*used for grouping containers for buttons firstPageButton and previousPageButton*/
+.ssr_statusButtonContainerBack{}
+
+/*used for grouping buttons firstPageButton and previousPageButton*/
+.ssr_statusButtonBack{}
+
+/*used for grouping containers for buttons lastPageButton and nextPageButton*/
+.ssr_statusButtonContainerForward{}
+
+/*used for grouping buttons lastPageButton and nextPageButton*/
+.ssr_statusButtonForward{}
+
+/*a style of the statusbar buttons container which is applied when the container is under the mouse pointer*/
+.ssr_statusButtonContainerOver:hover
+{
+    background-image: url('images/statusButtonBackgroung.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/*a style of the statusbar buttons container which is applied when the container is under the mouse pointer and the mouse button is pressed*/
+.ssr_statusButtonContainerDown
+{
+    background-image: url('images/statusButtonBackgroung.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/*a style of the element which displays the current page and number of report pages*/
+.ssr_statusCurrentPageContainer
+{
+    float: left;
+    margin: -3px 3px 0px 3px;
+    font-family: Segoe UI,Verdana,Arial,sans-serif;    
+    font-size:11pt;
+}
+
+/*a style of the element which display the current page number*/
+.ssr_currentPageNumber
+{
+    margin: 4px 0px;
+    vertical-align: top;
+    width: 40px;
+}
+
+/* a style of the element which display 'Of' text*/
+.ssr_pageCountOf
+{
+    position: relative;
+    top: 5px;
+    color: White;
+}
+
+/*a style of the element which displays the number of report's pages*/
+.ssr_pageCount
+{
+    position: relative;
+    top: 5px;
+    color: White;
+}
+
+/*a style of the button which navigates to the last page when the button is disabled*/
+.ssr_lastPageDisable
+{
+    background-image: url('images/lastPageButton.png');
+    background-position: top;
+}
+
+/*a style of the button which navigates to the last page when the button is enabled*/
+.ssr_lastPageEnable
+{
+    background-image: url('images/lastPageButton.png');
+    background-position: bottom;
+}
+
+/*a style of the button which navigates to the next page when the button is disabled*/
+.ssr_nextPageDisable
+{
+    background-image: url('images/nextPageButton.png');
+    background-position: top;
+}
+
+/*a style of the button which navigates to the next page when the button is enabled*/
+.ssr_nextPageEnable
+{
+    background-image: url('images/nextPageButton.png');
+    background-position: bottom;
+}
+
+/*a style of the button which navigates to the first page when the button is disabled*/
+.ssr_firstPageDisable
+{
+    background-image: url('images/firstPageButton.png');
+    background-position: top;
+}
+
+/*a style of the button which navigates to the first page when the button is enabled*/
+.ssr_firstPageEnable
+{
+    background-image: url('images/firstPageButton.png');
+    background-position: bottom;
+}
+
+/*a style of the button which navigates to the previous page when the button is disabled*/
+.ssr_previousPageDisable
+{
+    background-image: url('images/previousPageButton.png');
+    background-position: top;
+}
+
+/*a style of the button which navigates to the previous page when the button is enabled*/
+.ssr_previousPageEnable
+{
+    background-image: url('images/previousPageButton.png');
+    background-position: bottom;
+}
+
+/*
+End status panel
+*/
+
+/*
+Navigation
+*/
+
+/*a style of the container which contains the button for showing/hiding an element with thumbnails list*/
+.ssr_thumbnailButtonContainer, 
+/*a style of the container which contains the button for showing/hiding an element with bookmarks tree*/
+.ssr_documentMapButtonContainer
+{
+    height: 30px;
+    width: 33px;
+    padding: 3px 0px 0px 3px;
+}
+
+/*a style of the container for the button for showing/hiding an element of the navigation panel when it is enabled*/
+.ssr_navigationButtonContainerShow
+{
+    background-color: #E8E9ED;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+/*a style of the button which shows/hide the element with thumbnails list*/
+.ssr_thumbnailButton, 
+/*a style of the button which shows/hide the element with bookmarks tree*/
+.ssr_documentMapButton
+{
+    width: 24px;
+    height: 24px;
+}
+
+/*a style of the button which shows/hides the element with thumbnails list when the button is disabled*/
+.ssr_thumbnailButtonDisable
+{
+    background-image: url('images/pagesButton.png');
+    background-position: top;
+}
+
+/*a style of the button which shows/hides the element with bookmarks tree when the button is disabled*/
+.ssr_documentMapButtonDisable
+{
+    background-image: url('images/documentMapButton.png');
+    background-position: top;
+}
+
+/*a style of the button which shows/hides the element with thumbnails list when the element is under the mouse pointer*/
+.ssr_thumbnailButton:hover
+{
+    background-image: url('images/pagesButton.png');
+    background-position: bottom;
+}
+
+/*a style of the button which shows/hides the element with bookmarks tree when the element is under the mouse pointer*/
+.ssr_documentMapButton:hover
+{
+    background-image: url('images/documentMapButton.png');
+    background-position: bottom;
+}
+
+/*a style of the button which shows/hides the element with thumbnails list when the button is active*/
+.ssr_thumbnailButtonActive
+{
+    background-image: url('images/pagesButton.png');
+    background-position: bottom;
+}
+
+/*a style of the button which shows/hides the element with bookmarks tree when the button is active*/
+.ssr_documentMapButtonActive
+{
+    background-image: url('images/documentMapButton.png');
+    background-position: bottom;
+}
+
+/*a style of the button which hides the element with thumbnails list*/
+.ssr_closeThumbnailPanelButton, 
+/*a style of the button which hides the element with bookmarks tree*/
+.ssr_closeDocumentMapPanelButton
+{
+    background-image: url('images/closeButton.png');
+    background-position: top;
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin: 6px;
+}
+
+/*a style of the button which hides the element with thumbnails list when the element is under the mouse pointer and the mouse button is pressed*/
+.ssr_closeThumbnailPanelButtonDown, 
+/*a style of the button which hides the element with bookmarks tree when the element is under the mouse pointer and the mouse button is pressed*/
+.ssr_closeDocumentMapPanelButtonDown
+{
+    background-image: url('images/closeButton.png');
+    background-position: bottom;
+}
+
+/*a style of the element which contains the name of the element with thumbnails list*/
+.ssr_thumbnailHeadPanelTitle, 
+/*a style of the element which contains the name of the element with bookmarks tree*/
+.ssr_documentMapHeadPanelTitle
+{
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 0px;
+    position: relative;
+    top: 6px;
+    font-family: Segoe UI,Verdana,Arial,sans-serif;
+}
+
+/*
+End navigation
+*/
+
+/*
+Error
+*/
+
+/*a style of the element which contains an error message*/
+.ssr_errorMessageContent
+{
+    width: 300px;
+    min-height: 90px;
+}
+
+/*a style of the element which displays a window with an error message*/
+.ssr_errorButton
+{
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin: 3px 3px 0px 0px;
+}
+
+/*sets the image which contains icons used in the dialog window*/
+.ssr_errorDialogIcon
+{
+    background-image: url('images/ui-icons_888888_256x240.png') !important;
+}
+
+/*defines the image which contains icons used in the dialog window when the element of the dialog window is under the mouse pointer*/
+.ssr_errorDialogIcon:hover
+{
+    background-image: url('images/ui-icons_222222_256x240.png') !important;
+}
+
+/*a style of the element which shows a window with error message when the element is enabled*/
+.ssr_errorButtonEnable
+{
+    background-image: url('images/errorIcon.png');
+    background-position: bottom;
+}
+
+/*a style of the element which shows the window with error message when it is disabled*/
+.ssr_errorButtonDisable
+{
+    background-position: top;
+}
+
+/*a style which sets background-image for elements of a dialog window*/
+.ssr_errorDialogElementBackground
+{
+    color: #DDD !important;
+    background-image: url('images/toolbackground.png') !important;
+}
+
+/*a style of the element which closes a dialog window when this element is under the mouse pointer */
+.ssr_errorDialogCloseButton:hover
+{
+    background-image: url('images/closeErrorDialogButtonOver.png') !important;
+}
+
+/*a style which sets background image for elements of a dialog window when the element which closes the dialog window is under the mouse pointer*/
+.ssr_errorDialogCloseButton:hover .ssr_errorDialogIcon
+{
+    background-image: url('images/ui-icons_222222_256x240.png') !important;
+}
+
+/*a style for the "Close" button*/
+.ssr_errorDialogButton
+{
+    /*margin: 0px !important;*/
+}
+
+/*a style of the "Close" button when the button is under the mouse pointer*/
+.ssr_errorDialogButton:hover
+{
+    background-image: url('images/closeErrorDialogButtonOver.png') !important;
+    color: Black !important;
+}
+
+/*a style which defines parameters of the "Close" button text */
+.ssr_errorDialogButtonText
+{
+    line-height: 1.2 !important;
+    font-weight: bold;
+}
+
+/*a style which defines font size of a dialog window*/
+.ssr_dialogStyle
+{
+    font-size: 12px !important;
+    font-family: Segoe UI,Verdana,Arial,sans-serif;
+}
+
+/* Pdf export options styles */
+.ssr_pdfoptions_fieldset 
+{ 
+    border:1px solid #A9A9A9; 
+    border-radius:4px;    
+    padding:5px;
+}
+
+fieldset.ssr_pdfoptions_fieldset>legend {
+  padding: 0.2em 0.5em;
+  font-size:90%;  
+  }
+  
+.ssr_pdfOptions
+{
+    background-color:#F5F5F5; 
+    width:800px; 
+    font-family: Segoe UI,Verdana,Arial,sans-serif;
+    font-size:10pt;
+}
+
+.ssr_pdfOptionsColumn
+{
+    float:left; 
+    width:400px;
+}
+
+.ssr_pdfoptions_fieldset_pageRange
+{
+    height:100px;
+}
+
+.ssr_pdfoptions_fieldset_imageSettings
+{
+    height:160px;
+}
+
+.ssr_pdfoptions_fieldset_securitySettings
+{
+    height:272px;
+}
+
+.ssr_pdfoptions_imageQuality
+{
+    font-size:0.85em; 
+    width:40px;
+}
+
+.ssr_pdfoptions_encryptionLevelLabel
+{
+    width:120px;
+    float:left;
+}
+
+.ssr_pdfoptions_encryptionLevelRadioGroup
+{
+    float:left;
+}
+
+.ssr_clearBoth
+{
+    clear:both;
+}
+
+.ssr_pdfoptions_Permissions
+{
+    margin:10px;
+}
+
+.ssr_pdfoptions_documentPassword
+{
+    margin-left:40px;
+}
+
+.ssr_pdfoptions_changePermissionsPassword
+{
+    margin-left:15px;
+}
+
+.ssr_input-validation-error
+{
+    background: #FEF1EC  !important;
+    border: 1px solid #CD0A0A  !important;
+}
+
+/* Xlsx export options styles */
+
+.ssr_xlsxOptions
+{
+    background-color:#F5F5F5; 
+    width:800px; 
+    font-family: Segoe UI,Verdana,Arial,sans-serif;
+    font-size:10pt;
+}
+
+.ssr_xlsxOptions_fieldset 
+{ 
+    border:1px solid #A9A9A9; 
+    border-radius:4px;    
+    padding:5px;
+}
+
+fieldset.ssr_xlsxOptions_fieldset>legend {
+  padding: 0.2em 0.5em;
+  font-size:90%;  
+  }
+
+.ssr_xlsxOptionsColumn
+{
+    float:left; 
+    width:300px;
+}    
+
+.ssr_xlsxOptions_imageQuality
+{
+    font-size:0.85em !important; 
+    width:40px;
+}
+
+.ssr_xlsxOptions_fieldset_imageSettings
+{
+    height:238px;
+}
+
+.ssr_xlsxOptions_fieldset_sheetSettings
+{
+    height:88px;
+}
+
+.ssr_xlsxOptions_fieldset_pageRange
+{
+    height:138px;
+}
+
+.ssr_textNotFound
+{
+    background-color:#F5F5F5; 
+    width:200px; 
+    font-family: Segoe UI,Verdana,Arial,sans-serif;
+    font-size:14pt;
+}
+
+.ssr_searchHighlight
+{
+    /*background-color:#00D1FF; 
+    opacity:0.3;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);*/
+    background-image: url('images/searchHighlight.png') !important;
+    background-repeat:repeat;
+}
+
+/*
+End error
+*/
+
+/*
+Report Viewer Skin
+*/
+
+/* a style of the element which contains a report page*/
+.ssr_wrapperPageDiv
+{
+    padding:10px;
+    margin: 0 auto;
+    clear: both;
+}
+/* a style of a report page*/
+.ssr_pageDiv
+{
+    background-color: #FFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#555;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 1px;
+}
+/*
+ThumbnailsView
+*/
+/* a style of the element which contains a thumbnails list*/
+.ssr_thumbnailContentPanel
+{
+    float: left; 
+    width: 167px;
+    height: 543px;
+    overflow: auto;
+    background-color: #E8E9ED;
+    margin-right: 3px;
+}
+/* a style of an element of a thumbnails list*/
+.ssr_thumbnailContentPanel .ssr_thumbnailItemWrapper
+{
+    border-style: solid;
+    border-color: Black;
+    border-width: 0px;
+    clear: both;
+    padding: 1px;
+    margin: 5px auto;
+    width: 100px;
+}
+/* a style of div elements which are used in the element from a list of thumbnails*/
+.ssr_thumbnailContentPanel .ssr_thumbnailItemWrapper div
+{
+    text-align: center;
+    font-size: 10pt;
+    font-family: Segoe UI,Verdana,Arial,sans-serif;
+}
+/* a style which defines the image sizes of the element from a thumbnails list*/
+.ssr_thumbnailContentPanel .ssr_thumbnailItemWrapper .ssr_thumbnailImage
+{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+/* a style of the element of thumbnails list when this element is under the mouse pointer*/
+.ssr_thumbnailContentPanel .ssr_thumbnailItemWrapper:hover
+{
+    background-color: #bbb;
+}
+/* a style of the element of thumbnails list when the element is selected */
+.ssr_thumbnailContentPanel .ssr_thumbnailItemSelected
+{
+    background-color: #aaa;
+}
+/*
+End ThumbnailsView
+*/
+
+.treeview, .treeview ul { padding: 0; margin: 0; list-style: none; }
+.treeview ul { margin-top: 4px; }
+.treeview .hitarea { background: url(images/treeview-default.gif) -64px -25px no-repeat; height: 16px; width: 16px; margin-left: -16px; float: left; cursor: pointer; }
+.treeview li { margin: 0; padding: 3px 0pt 3px 16px;}
+.selected { background-color: #C5DAE5 !important; background-position: -16px 0 !important; }
+.treeview .hover { cursor: pointer; background-color: #D8E6ED !important;}
+.treeview li { background: url(images/treeview-default-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(images/treeview-default.gif); }
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+.filetree li { padding: 3px 0 2px 16px; }
+.filetree span.folder, .filetree { padding: 0px 0px 0px 16px; display: block; min-height:16px;}
+.filetree span.folder 
+{ 
+    background: url(images/bookmarktreenode.png) 0 -16px no-repeat; 
+    padding-left: 20px !important; 
+    font-family: Segoe UI,Verdana,Arial,sans-serif;
+    font-size:10pt;
+}
+
+/* These styles are defined to fix effect of global vertical-align style definition */
+
+.ssr_pageDiv tr, .ssr_pageDiv td, .ssr_pageDiv div
+{
+    vertical-align: top;
+}
+
+td[valign='bottom']
+{
+    vertical-align: bottom;
+}
+
+td[align='right']
+{
+    text-align: right;
+}
+
+td[valign='center']
+{
+    vertical-align: middle;
+}
+
+td[align='center']
+{
+    text-align: center;
+}

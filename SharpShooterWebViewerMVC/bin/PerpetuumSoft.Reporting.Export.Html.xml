@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>~tuumSoft.Reporting.Export.Html</name>
+  </assembly>
+  <members>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.RenderBody(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Renders control content to the html file.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.GetHyperlink(PerpetuumSoft.Reporting.DOM.ReportControl)"><summary>Returns hyperlink for the given control.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ShapeHtmlAdapter.RenderBody(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderBody implementation.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.ExportMode"><summary>Gets and sets export mode.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlTable.Render(PerpetuumSoft.Reporting.DOM.PageCollection,PerpetuumSoft.Reporting.Export.Tracing.TableTracer.SupportControlCallback)"><summary>Calculates table contents.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlTable.Save(PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Writes table to the given context.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilterFactory.GetFilterFormat"><summary>Returns filter format name.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.Export(PerpetuumSoft.Reporting.DOM.Document,System.IO.Stream)"><summary>Exports given doument to the specified stream.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.AdvancedTextHtmlAdapter.RenderStyle(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrided. See <see cref="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.RenderStyle(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)" />.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.ImagesResolution"><summary>Gets and sets images resolution in dpi.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlContext.Units"><summary>Gets used units.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilterFactory.GetFilterFileExtension"><summary>Returns default file extension.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.GetHyperlink(PerpetuumSoft.Reporting.DOM.ReportControl)"><summary>Returns hyperlink string to the specified control.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Adapters.TextBoxHtmlAdapter"><summary>Represents adapter for TextBox class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.VisualControlHtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderStyleCell implementation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.FormatUnits(System.Double)"><summary>Converts distance to its html representation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.AddImage(System.Drawing.Bitmap)"><summary>Adds image and returns image url.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.PreserveLineBreaks"><summary>Gets and sets whether line breaks will be included in result html file as BR tag.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.PreserveBlankCells"><summary>Gets and sets whether blank rows and columns will be included in result html file.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.BoxHtmlAdapter.#ctor"><summary>Creates a new instance of BoxHtmlAdapter class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter.RenderStyle(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overridden. See <see cref="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.RenderStyle(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)" />.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter.SetVerticalAlign(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Sets vertical align in the control context.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.FindAdapter(System.Type)"><summary>Returns HtmlAdapter instance corresponding to the given control type.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.VisualControlHtmlAdapter.#ctor"><summary>Creates a new instance of VisualControlHtmlAdapter class.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.PreserveOriginalSizes"><summary>Gets and sets whether filter should try to keep all controls sizes.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.IncIndent"><summary>Increments indent.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.ResultType.HtmlFragment"><summary>Only html fragment will be generated. Useful if export result will be included in other html file.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ShapeHtmlAdapter.#ctor"><summary>Creates a new instance of ShapeHtmlAdapter class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.AdvancedTextHtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overridden. See <see cref="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)" />.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.WriteLine"><summary>Writes new line.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.IgnoreFills"><summary>Gets ans sets whether information about fills should be excluded from html file.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextBoxHtmlAdapter.RenderBody(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderBody implementation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.WriteEndHref(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Closes href tag.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilterFactory"><summary>Creates HtmlExportFilter instaces.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.#ctor"><summary>Creates a new instance of HtmlAdapter class.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.ImagesFormat"><summary>Enumerates image format.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.Formatting.Compact"><summary>Compact form of html without blanks and indents.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextBoxHtmlAdapter.#ctor"><summary>Creates a new instance of TextBoxHtmlAdapter class.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.IHtmlContext"><summary>Defines general interface for the html export filter context.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlContext.Filter"><summary>Gets HtmlExportFilter instance associated with this context.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlContext.Scale"><summary>Gets scale factor.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Renders table cell style to html file.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.GetBookmark(PerpetuumSoft.Reporting.DOM.ReportControl)"><summary>Returns bookmark for the specified control.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.Export(PerpetuumSoft.Reporting.DOM.Document,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Exports given document.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlTable.Render(PerpetuumSoft.Reporting.DOM.PageCollection,PerpetuumSoft.Reporting.Export.Tracing.TableTracer.SupportControlCallback,PerpetuumSoft.Reporting.Export.Tracing.TableTracer.RenderControlCallback)"><summary>Calculates table contents.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.Writer"><summary>Gets HtmlTextWriter.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.ExportDocument(PerpetuumSoft.Reporting.DOM.Document,System.IO.Stream)"><summary>Exports given document to the specified stream.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.AdvancedTextHtmlAdapter.RenderBody(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrided. See <see cref="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.RenderBody(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)" />.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.AdvancedTextHtmlAdapter.#ctor"><summary>Creates a new instance of AdvancedTextHtmlAdapter class.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.ResultType"><summary>Gets ans sets export result type.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.ExportDocument(PerpetuumSoft.Reporting.DOM.Document,System.String)"><summary>Exports given document to the specified file.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Adapters.ReportControlHtmlAdapter"><summary>Represents Html Adapter for ReportControl class.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.ExportMode.Span"><summary>Each report control represented as separate SPAN tag with absolute position.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter.GetVerticalAlign(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Returns a string that assigned vertical align of a control.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.Accuracy"><summary>Gets and sets filter accuracy.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.ImagesFormat"><summary>Gets and sets images format.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ReportControlHtmlAdapter.RenderSpan(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderSpan implementation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.WriteLine"><summary>Writes line.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.Formatting"><summary>Gets and sets formatting mode.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.HtmlTable"><summary>Represents HtmlTable.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlTable.Render(PerpetuumSoft.Reporting.DOM.Page,PerpetuumSoft.Reporting.Export.Tracing.TableTracer.SupportControlCallback)"><summary>Calculates table contents.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.TextObjectOnly"><summary>Gets and sets whether only text content of report will be exported.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.Filter"><summary>Gets HtmlExportFilter instance associated with this context.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ReportControlHtmlAdapter.#ctor"><summary>Creates a new instance of ReportControlHtmlAdapter class.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.HtmlContext"><summary>Contains html exporting context.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.#ctor(System.ComponentModel.IContainer)"><summary>Creates new instance of the HtmlExportFilter class.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilterFactory.Factory"><summary>Gets default instance of the HtmlExportFilterFactory class.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Adapters.AdvancedTextHtmlAdapter"><summary>Represents adapter for the AdvancedText class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.BoxHtmlAdapter.RenderStyle(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides default RenderStyle implementation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ShapeHtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderStyleCell implementation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.ShowDialog"><summary>Shows dialog with Export Filter settings.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.FormatUnits(System.Double)"><summary>Converts distance to its html representation.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlContext.SupportImages"><summary>Gets if context support images.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Adapters.VisualControlHtmlAdapter"><summary>Represents adapter for the VisualControl class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.RenderStyle(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Renders control style to html file.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter"><summary>Incapsulates conversion methods for different types of report controls.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.ScaleValue(System.Double)"><summary>Converts distance to its html representation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.AddImage(System.Drawing.Bitmap)"><summary>Adds image in to the image context and returns path to this image.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.DecIndent"><summary>Decrements indent.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><exclude></exclude></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.#ctor"><summary>Creates new instance of the HtmlExportFilter class.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.ImagesFormat.Png"><summary>Png images.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.WriteBeginHref(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Writes begin of HRef tag.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.ExportMode.TablePerPage"><summary>Each report page represented as separate table. Each report control converted to the table cell.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.ReplaceWhiteSpaceWithNBSP"><summary>Gets and sets whether blanks will be replaced with nbsp.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.IgnoreTextAlignment"><summary>Gets ans sets whether information about text alignment should be exluded from html file.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.GetFactory"><summary>Returns html export filters factory.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlContext.Writer"><summary>Gets underlaying HtmlTextWriter instance.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.BoxHtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides default RenderStyleCell implementation.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.ImagesFormat.Jpeg"><summary>Jpeg images.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.IgnoreBorders"><summary>Gets ans sets whether information about borders should be excluded from html file.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextBoxHtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderStyleCell implementation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.DecIndent"><summary>Decrements indent.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.HtmlAdapter.RenderSpan(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Renders control as SPAN element to the html file.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter"><summary>Represents adapter for the TextBox class. </summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextBoxHtmlAdapter.RenderStyle(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderStyle implementation.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.IgnoreFonts"><summary>Gets ans sets whether information about fonts should be excluded from html file.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.Formatting.Readable"><summary>Readable form of html with blanks and indents.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.ImagesFormat.Gif"><summary>Gif images.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilterFactory.CreateFilter"><summary>Creates new instance of the export filter.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.#ctor(System.String,PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter)"><summary>Creates new instance of the HtmlContext class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.BoxHtmlAdapter.RenderBody(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides default RenderBody implementation.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.Scale"><summary>Gets scale factor.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Adapters.ShapeHtmlAdapter"><summary>Represents adapter for Shape class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ReportControlHtmlAdapter.HtmlCreateLineStyle(PerpetuumSoft.Framework.Drawing.BorderLine)"><summary>Returns line style.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.ExportMode"><summary>Enumerates export modes.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.ResultType"><summary>Enumerates html generation modes.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Formatting"><summary>Enumerate formtting modes.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ReportControlHtmlAdapter.RenderStyleCell(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderStyleCell implementation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ReportControlHtmlAdapter.RenderBody(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderBody implementation.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.InsertHyperLinks"><summary>Gets and sets if hyperlinks will be exported.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlTable.#ctor(System.String)"><summary>Creates new instance of the HtmlTable class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter.SetHorizontalAlign(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Sets horisontal align in the control context.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlTable.Tracer"><summary>Gets TableTracer instance associated with this table.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlTable.Render(PerpetuumSoft.Reporting.DOM.Page,PerpetuumSoft.Reporting.Export.Tracing.TableTracer.SupportControlCallback,PerpetuumSoft.Reporting.Export.Tracing.TableTracer.RenderControlCallback)"><summary>Calculates table contents.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.#ctor(System.IO.TextWriter,PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter)"><summary>Creates new instance of the HtmlContext class.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.ExportMode.Table"><summary>Report represented as single table. Each report control converted to the table cell.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilterFactory.GetFilterName"><summary>Returns filter name.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.#ctor(System.IO.Stream,PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter)"><summary>Creates new instance of the HtmlContext class.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.Adapters.BoxHtmlAdapter"><summary>Represents adapter for the Box class.</summary></member>
+    <member name="F:PerpetuumSoft.Reporting.Export.Html.ResultType.HtmlFile"><summary>Whole html file will be generated including HTML, HEAD and BODY tags.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.IncIndent"><summary>Increments indent.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter.#ctor"><summary>Initializes a new instance of the <see cref="T:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter" /> class.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter.RegisterAdapter(System.Type,System.Type)"><summary>Registers a new adapter.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ReportControlHtmlAdapter.GetImage(PerpetuumSoft.Reporting.DOM.ReportControl)"><summary>Returns a bitmap where a control was exported.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.HtmlTable.PageCollection"><summary>Gets the collection of pages.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.SupportImages"><summary>Gets if context support images.</summary></member>
+    <member name="P:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.Units"><summary>Gets current units.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.ReportControlHtmlAdapter.RenderStyle(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Overrides inherited RenderStyle implementation.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.GetBookmark(PerpetuumSoft.Reporting.DOM.ReportControl)"><summary>Returns bookmark for the given control.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.Adapters.TextControlHtmlAdapter.GetHorizontalAlign(PerpetuumSoft.Reporting.DOM.ReportControl,PerpetuumSoft.Reporting.Export.Html.IHtmlContext)"><summary>Returns a string that assigned horisontal align of a control.</summary></member>
+    <member name="M:PerpetuumSoft.Reporting.Export.Html.HtmlContext.ScaleValue(System.Double)"><summary>Implements <see cref="M:PerpetuumSoft.Reporting.Export.Html.IHtmlContext.ScaleValue(System.Double)" />.</summary></member>
+    <member name="T:PerpetuumSoft.Reporting.Export.Html.HtmlExportFilter"><summary>Export Report Sharp-Shooter documents to html format.</summary></member>
+  </members>
+</doc>
