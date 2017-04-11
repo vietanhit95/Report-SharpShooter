@@ -13,7 +13,7 @@
     $(document).ready(function () {
         var reportViewer = new PerpetuumSoft.Reporting.WebViewer.Client.ReportViewer("#ReportViewerElement");
         reportViewer.setServiceUrl("http://localhost:5555/ServiceGroup");
-        reportViewer.reportName = "Group";
+        reportViewer.reportName = "MultiBand";
         reportViewer.renderDocument();
         reportViewer.setThumbnailsControl("#ssr_thumbnailContentPanel");
         reportViewer.setDocumentMapControl("#documentMapView");
