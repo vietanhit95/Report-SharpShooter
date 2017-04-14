@@ -17,5 +17,9 @@ namespace SharpShooterWebViewerMVC.Controllers
         {
             return View();
         }
+        public ActionResult TrangChu()
+        {
+            return View();
+        }
     }
 }

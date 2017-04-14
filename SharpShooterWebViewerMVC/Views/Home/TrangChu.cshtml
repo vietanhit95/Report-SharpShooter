@@ -1,0 +1,57 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vinatti - Semina</title>
+    <style>
+        .display {
+            height: calc(100vh);
+            width: 100%;
+        }
+
+        div.hidden {
+            display: none;
+        }
+
+        .menuofme {
+            position: relative;
+            display: block;
+            border-radius: 45px;
+            padding: 25px 15px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            text-align: center;
+        }
+
+        #divofme a:hover {
+            background: linear-gradient(to top, #191654, #43C6AC);
+            text-decoration:none;
+            color:white;
+        }
+    </style>
+</head>
+<body class="display" style="background: linear-gradient(to top, #191654, #43C6AC);">
+    <div style="width: 30%;font-size: 20px;margin-left: 675px;margin-top:180px;position:absolute;" class="hidden">
+        <div style="font-size:20px;" id="divofme">
+            <a href="#" class="menuofme">Sharpshooter Report List</a>
+            <a href="#" class="menuofme">Sharpshooter Report Group</a>
+            <a href="#" class="menuofme">Sharpshooter Report Multiband</a>
+            <a href="#" class="menuofme">Sharpshooter Report Side By Side</a>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        $('div.hidden').fadeIn(3000).removeClass('hidden');
+    });
+</script>
